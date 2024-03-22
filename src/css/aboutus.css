@@ -1,4 +1,4 @@
-.about-us-section {
+.about-us-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -34,8 +34,6 @@
 }
 .about-us-btn {
     border-radius: 16px;
-    width: 160px;
-    height: 48px; 
     font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -43,7 +41,7 @@
     text-align: center;
     color: #fbfbfb;
     background-color: #3350e9;
-    border: none;
+    padding: 15px 38px;
 }
 .about-us-btn:hover,
 .about-us-btn:focus {
@@ -77,10 +75,15 @@ padding: 80px 60px;
 .about-us-img {
     border-radius: 50px;
 }
+.about-us-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
 }
 
 @media screen and (min-width:1280px) {
-.about-us-section {
+.about-us-container {
     flex-direction: row;
 }
 .about-us-wrapper {

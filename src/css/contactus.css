@@ -8,6 +8,8 @@
 }
 .box-window {
   display: flex;
+  flex-direction: column;
+  gap: 18px;
   border-radius: 30px;
   padding: 48px 28px;
   width: 335px;
@@ -47,6 +49,8 @@
   font-size: 14px;
   line-height: 1.28571;
   color: #0c0c0c;
+  resize: none;
+  outline: transparent;
 }
 
 .contact-us-button-send {

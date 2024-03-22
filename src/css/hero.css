@@ -1,0 +1,75 @@
+.hero-section {}
+
+.hero-container {
+    display: flex;
+}
+
+.title-hero-container {}
+
+.title-hero {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+}
+
+.paragraf-hero {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+}
+
+.hero-avatr-btn {}
+
+.btn-hero {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #0c0c0c;
+    border: none;
+}
+
+@media screen and (max-width: 375px) {
+    .title-hero {
+        font-size: 40px;
+        line-height: 0.95;
+    }
+
+    .paragraf-hero {
+        font-size: 14px;
+        line-height: 1.29;
+    }
+
+    .btn-hero {
+        font-size: 14px;
+        line-height: 1.29;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .title-hero {
+        font-size: 70px;
+        line-height: 0.85;
+    }
+
+    .paragraf-hero {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .btn-hero {
+        font-size: 20px;
+        line-height: 1;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .title-hero {
+        font-size: 72px;
+        line-height: 0.87;
+    }
+
+}

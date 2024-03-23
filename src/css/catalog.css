@@ -2,6 +2,10 @@
   padding-bottom: 60px;
   padding-top: 60px;
 }
+.catalog-container {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .title-two {
   font-family: 'Gilroy', sans-serif;
@@ -17,13 +21,12 @@
   display: flex;
   flex-wrap: wrap;
   display: flex;
-  align-items: center;
   justify-content: center;
-  gap: 20px;
+  row-gap: 20px;
 }
 
 .watch {
-  width: 335px;
+  width: 333px;
   background: #f3f3f3;
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
@@ -41,10 +44,10 @@
 }
 
 .watch-text {
+  width: 280px;
   padding-left: 28px;
   padding-right: 28px;
   padding-bottom: 24px;
-
   border-top: none;
 }
 
@@ -62,10 +65,58 @@
   font-family: 'Gilroy', sans-serif;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.3;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.5);
 }
 .watch-none {
   display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .catalog {
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
+
+  .title-two {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+  .watch-list {
+    row-gap: 32px;
+    column-gap: 16px;
+    justify-content: space-between;
+  }
+  .watch {
+    width: 342px;
+  }
+  .watch-text {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .title-three-portfolio {
+    font-size: 20px;
+    line-height: 1;
+  }
+  .watch-none {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: normal;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .catalog {
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+  .watch-list {
+    column-gap: 23px;
+  }
+  .watch {
+    width: 368px;
+  }
+  .watch-text {
+    width: 304px;
+  }
 }

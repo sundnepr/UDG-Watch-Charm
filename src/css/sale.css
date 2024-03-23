@@ -1,6 +1,110 @@
-.sale-section {
-    padding: 0 20px;
+@media screen and (max-width: 767px) {
+    .container-sale {
+        max-width: 375px;
+        padding: 0 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sale-section-list{
+    display: flex;
+  padding-bottom: 20px;
+  gap: 5px;
+  
+}
+.sale-section-info {
+    background-color: #3350E9;
+    height: 561px;
+   
+    border-radius: 30px;
+    padding: 0 28px;
 
+}
+.sale-section-title-two {
+    font-family: "Gilroy", sans-serif;
+font-weight: 600;
+font-size: 24px;
+line-height: 1.17;
+letter-spacing: -0.02em;
+color: #fbfbfb;
+width: 279px;
+padding-top: 48px;
+padding-bottom: 10px;
+
+
+}
+.sale-section-text-prouct {
+    font-family: "Gilroy", sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.28571;
+letter-spacing: -0.02em;
+color: rgba(251, 251, 251, 0.5);
+padding-bottom: 20px;
+
+}
+.sale-section-button {
+    width: 68px;
+height: 32px;
+font-family: "Gilroy", sans-serif;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: -0.02em;
+color: #fbfbfb;
+border-radius: 8px;
+background: rgba(251, 251, 251, 0.1);
+border: 0;
+
+}
+
+.sale-section-text-price {
+    font-family: "Gilroy", sans-serif;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.16667;
+letter-spacing: -0.02em;
+text-decoration: line-through;
+color: rgba(251, 251, 251, 0.5);
+display: flex;
+align-items: center;
+}
+.sale-section-text-two {
+   font-family: "Gilroy", sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.28571;
+letter-spacing: -0.02em;
+color: rgba(251, 251, 251, 0.7);
+padding-bottom: 28px;
+
+}
+
+.sale-section-text-three {
+    font-family: "Gilroy", sans-serif;
+font-weight: 500;
+font-size: 12px;
+line-height: 1.3;
+color: #fbfbfb;
+
+}
+.sale-section-list-two {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 279px;
+
+}
+.sale-section-link-two {
+    border: 1px solid rgba(251, 251, 251, 0.2);
+border-radius: 8px;
+padding: 8px 12px;
+
+
+}
+.sale-section-price {
+    display: flex;
+    gap: 9px;
+    padding-bottom: 28px;
 }
 
 .sale-title-section {
@@ -10,8 +114,37 @@ font-size: 32px;
 line-height: 1;
 letter-spacing: -0.02em;
 color: #0c0c0c;
+width: 64px;
+margin-bottom: 28px;
 }
-.sale-section-list {
-    display: flex;
-  justify-content: center;
+.sale-section-link {
+    background-color: #F3F3F3;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+border-radius: 16px;
+width: 80px;
+height: 80px;
+}
+.sale-section-img-clock {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+border-radius: 30px;
+width: 335px;
+background: #f3f3f3;
+
+}
+.sale-section-img {
+    margin-bottom: 20px;
+}
+.clock-img {
+  padding: 0 14px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+ } 
+/* ==================================des======================== */
+@media screen and (max-width: 768px) {
+   
+
+}
+@media screen and (max-width: 1280px) {
+
 }

@@ -1,51 +1,72 @@
 <section class="sale-section" >
-<h2 class="sale-title-section">Sale</h2>
 
  <div class="container-sale"> 
-        
+   <h2 class="sale-title-section">Sale</h2>
          <div class="sale-section-img">
 <ul class="sale-section-list">
 <li class="sale-section-link">
     
-    <img src="./img/sale-img/clock-tel9.jpg" alt="clock"
+    <img class="clock-img"
+    srcset="./img/sale-img/clock-des-tab9.png 1x,
+    ./img/sale-img/clock-des-tab10@2x.png 2x "
+    
+    src="./img/sale-img/clock-tel9.png" alt="clock"
     width="52"
     height="54">
 </li>
 
 <li class="sale-section-link">
-     <img src="./img/sale-img/clock-tel7.jpg" alt="clock"
+     <img class="clock-img"
+     srcset="./img/sale-img/clock-des-tab5.png 1x,
+     ./img/sale-img/clock-des-tab6@2x.png 2x"
+      src="./img/sale-img/clock-tel7.png" alt="clock"
     width="52"
     height="54">
 </li>
 
 <li class="sale-section-link">
     
-    <img src="./img/sale-img/clock-tel3.jpg" alt="clock"
+    <img class="clock-img"
+    srcset="./img/sale-img/clock-des-tab3.png 1x,
+    ./img/sale-img/clock-des-tab4@2x.png 2x,"
+    src="./img/sale-img/clock-tel3.png" alt="clock"
     width="52"
     height="54">
   
 </li>
 <li class="sale-section-link">
     
-    <img src="./img/sale-img/clock-tel5.jpg" alt="clock"
+    <img  class="clock-img"
+    srcset="./img/sale-img/clock-des-tab7.png 1x,
+    ./img/sale-img/clock-des-tab8@2x.png 2x,"
+    src="./img/sale-img/clock-tel5.png" alt="clock"
     width="52"
     height="54">
    </li>
 </ul>
- </div>        
- <div class="sale-section-picture-img">         
+       
+ <!-- <div class="sale-section-picture-img">          -->
 <picture>
-<img src="./img/sale-img/clock-tel1.jpg" alt="clock"
-    width="235"
-    height="285">
+   <source media="(min-width: 1280px)"
+srcset="./img/sale-img/clock-des-tab1x.png 1x,
+./img/sale-img/clock-des-tab2x@2x.png 2x">
+
+<source media="(min-width: 768px)" srcset="./img/sale-img/clock-des-tab1x.png 1x,
+./img/sale-img/clock-des-tab2x@2x.png 2x" >
+
+<source media="(min-width: 375px)" srcset="./img/sale-img/clock-tel1.png 1x,
+./img/sale-img/clock-tel2@2x.png 2x" >
+<img class="sale-section-img-clock" src="./img/sale-img/clock-tel1.png" alt="clock"
+ >
           </picture>
-          </div>  
+         </div> 
+          <!-- </div>   -->
 
 
 <!-- ==========================================price==================================== -->
           <div class="sale-section-info">
             <h3 class="sale-section-title-two">MARQ® Commander (Gen 2) - Carbon Edition</h3>
-            <p class=" sale-section-text-prouct">Product tag: 706587</p>
+            <p class="sale-section-text-prouct">Product tag: 706587</p>
             <div class="sale-section-price">
                <button class="sale-section-button" type="button">€1500</button>
             <p class="sale-section-text-price">€3000</p>

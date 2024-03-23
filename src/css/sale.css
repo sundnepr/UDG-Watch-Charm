@@ -1,8 +1,12 @@
 @media screen and (max-width: 767px) {
-    
+    .container-sale {
+        max-width: 375px;
+        padding: 0 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .sale-section-list{
     display: flex;
-  justify-content: center;
   padding-bottom: 20px;
   gap: 5px;
   
@@ -10,6 +14,7 @@
 .sale-section-info {
     background-color: #3350E9;
     height: 561px;
+   
     border-radius: 30px;
     padding: 0 28px;
 
@@ -86,7 +91,7 @@ color: #fbfbfb;
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    
+    width: 279px;
 
 }
 .sale-section-link-two {
@@ -109,7 +114,7 @@ font-size: 32px;
 line-height: 1;
 letter-spacing: -0.02em;
 color: #0c0c0c;
-margin-left: 20px;
+width: 64px;
 margin-bottom: 28px;
 }
 .sale-section-link {
@@ -130,12 +135,14 @@ background: #f3f3f3;
     margin-bottom: 20px;
 }
 .clock-img {
-    display: flex;
-    align-items: center;
+  padding: 0 14px;
+  padding-top: 13px;
+  padding-bottom: 13px;
 }
-}
+ } 
 /* ==================================des======================== */
 @media screen and (max-width: 768px) {
+   
 
 }
 @media screen and (max-width: 1280px) {

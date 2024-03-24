@@ -1,6 +1,5 @@
 .catalog {
   padding-bottom: 60px;
-  padding-top: 60px;
 }
 .catalog-container {
   margin-left: auto;
@@ -20,13 +19,11 @@
 .watch-list {
   display: flex;
   flex-wrap: wrap;
-  display: flex;
   justify-content: center;
   row-gap: 20px;
 }
 
 .watch {
-  width: 333px;
   background: #f3f3f3;
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
@@ -76,7 +73,6 @@
 @media screen and (min-width: 768px) {
   .catalog {
     padding-bottom: 80px;
-    padding-top: 80px;
   }
 
   .title-two {
@@ -86,10 +82,9 @@
   .watch-list {
     row-gap: 32px;
     column-gap: 16px;
-    justify-content: space-between;
   }
   .watch {
-    width: 342px;
+    width: 344px;
   }
   .watch-text {
     padding-left: 32px;
@@ -108,13 +103,11 @@
 @media screen and (min-width: 1280px) {
   .catalog {
     padding-bottom: 100px;
-    padding-top: 100px;
   }
   .watch-list {
-    column-gap: 23px;
   }
   .watch {
-    width: 368px;
+    width: calc((100% - 46px) / 3);
   }
   .watch-text {
     width: 304px;

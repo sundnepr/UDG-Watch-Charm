@@ -1,8 +1,7 @@
 @media screen and (max-width: 767px) {
     .container-sale {
-        width: 375px;
-        padding: 0 20px;
-        margin: 0 auto;
+        width: 335px;
+    margin: 0 auto;
         
     }
     .sale-section-list{
@@ -31,7 +30,7 @@ letter-spacing: -0.02em;
 color: #fbfbfb;
 width: 279px;
 padding-top: 48px;
-padding-bottom: 10px;
+margin-bottom: 10px;
 
 
 }
@@ -42,7 +41,7 @@ font-size: 14px;
 line-height: 1.28571;
 letter-spacing: -0.02em;
 color: rgba(251, 251, 251, 0.5);
-padding-bottom: 20px;
+margin-bottom: 20px;
 width: 123px;
 }
 
@@ -79,7 +78,7 @@ font-size: 14px;
 line-height: 1.28571;
 letter-spacing: -0.02em;
 color: rgba(251, 251, 251, 0.7);
-padding-bottom: 28px;
+margin-bottom: 28px;
 width: 279px;
 }
 
@@ -108,7 +107,7 @@ padding: 8px 12px;
 .sale-section-price {
     display: flex;
     gap: 9px;
-    padding-bottom: 28px;
+    margin-bottom: 28px;
 }
 
 .sale-title-section {
@@ -181,7 +180,7 @@ background: #f3f3f3;
     color: #fbfbfb;
     width: 436px;
     padding-top: 60px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
     
     
     }
@@ -192,7 +191,7 @@ background: #f3f3f3;
     line-height: 1.29;
     letter-spacing: -0.02em;
     color: rgba(251, 251, 251, 0.5);
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     width: 123px;
     }
     
@@ -229,7 +228,7 @@ background: #f3f3f3;
     line-height: 1.25;
     letter-spacing: -0.02em;
     color: rgba(251, 251, 251, 0.7);
-    padding-bottom: 28px;
+    margin-bottom: 28px;
     width: 584px;
     }
     
@@ -260,7 +259,7 @@ background: #f3f3f3;
     .sale-section-price {
         display: flex;
         gap: 9px;
-        padding-bottom: 28px;
+        margin-bottom: 28px;
     }
     
     .sale-title-section {
@@ -305,10 +304,11 @@ background: #f3f3f3;
 
 }
 @media screen and (min-width: 1280px) {
-
+.container-sale {
+    max-width: 1150px;
+}
     .sale-section-picture-img {
         width: 428px;
-      
         display: flex;
         gap: 32px;
     }
@@ -335,11 +335,9 @@ background: #f3f3f3;
     }
     .sale-section-text-two {
         width: 410px;
-        padding-bottom: 38px;
+        
     }
-    .sale-section-price {
-        padding-bottom: 30px;
-    }
+    
     .sale-section-list-two {
         padding-bottom: 61px;
     }

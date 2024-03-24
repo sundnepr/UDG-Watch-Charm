@@ -45,7 +45,6 @@
 .about-us-container {
     flex-direction: column;
     gap: 20px;
-    
     }
 .about-us-wrapper {
     max-width: 295px;

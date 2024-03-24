@@ -20,7 +20,6 @@
 .watch-list {
   display: flex;
   flex-wrap: wrap;
-  display: flex;
   justify-content: center;
   row-gap: 20px;
 }
@@ -86,10 +85,9 @@
   .watch-list {
     row-gap: 32px;
     column-gap: 16px;
-    justify-content: space-between;
   }
   .watch {
-    width: 342px;
+    width: calc((100% - 16px) / 2);
   }
   .watch-text {
     padding-left: 32px;

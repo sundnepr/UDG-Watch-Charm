@@ -24,6 +24,7 @@
 }
 
 .watch {
+  width: 333px;
   background: #f3f3f3;
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
@@ -74,6 +75,10 @@
   .catalog {
     padding-bottom: 80px;
   }
+  .catalog-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .title-two {
     font-size: 48px;
@@ -84,7 +89,7 @@
     column-gap: 16px;
   }
   .watch {
-    width: 344px;
+    width: 342px;
   }
   .watch-text {
     padding-left: 32px;

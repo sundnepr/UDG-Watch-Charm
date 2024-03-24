@@ -1,0 +1,203 @@
+.section-advertisement {
+    margin: 0 auto;
+}
+
+.container-advertisement {
+    padding: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.title-advertisement {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+}
+
+.span-advertisement {
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.btn-advertisement {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: #fbfbfb;
+}
+
+@media only screen and (max-width: 767px) {
+    .section-advertisement {
+        max-width: 335px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        border-radius: 30px;
+        background: rgb(12, 12, 12);
+        background-image: url(../img/Advertisement-img/bg-tel-min.png);
+        background-size: contain;
+    }
+    .container-advertisement {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title-advertisement {
+        font-size: 32px;
+        line-height: 1;
+    }
+
+    .container-taitel-advertisemetn {
+        width: 279px;
+        height: 167px;
+        margin-top: 60px;
+        margin-right: 24px;
+        margin-left: 24px;
+    }
+    
+    
+    .container-btn-advertisemetn {
+        border: 1px solid rgba(251, 251, 251, 0.15);
+        border-radius: 16px;
+        margin-top: 28px;
+        margin-bottom: 60px;
+        max-width: 160px;
+        max-height: 48px;
+        display: flex;
+        align-items: center;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    
+    .btn-advertisement {
+        font-size: 14px;
+        line-height: 1.28;
+        padding: 15px 44px 15px 43px;
+    }
+}
+
+@media only screen and (min-resolution: 192dpi) and (max-width: 767px) {
+    .section-advertisement {
+        background-image: url(../img/Advertisement-img/2x/bg-tel2x-min.png);
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+    .section-advertisement {
+        border-radius: 30px;
+        max-width: 704px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        background-color: rgb(12, 12, 12);
+        background-image: url(../img/Advertisement-img/bg-table-min.png);
+        background-size: contain;
+    }
+    
+    .container-advertisement {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-taitel-advertisemetn {
+        width: 576px;
+        height: 185px;
+        margin-top: 80px;
+        margin-right: 64px;
+        margin-left: 64px;
+    }
+    
+    .title-advertisement {
+        font-size: 48px;
+        line-height: 0.92;
+    }
+
+    .container-btn-advertisemetn {
+        border: 1px solid rgba(251, 251, 251, 0.15);
+        border-radius: 16px;
+        margin-top: 32px;
+        margin-bottom: 80px;
+        max-width: 160px;
+        max-height: 48px;
+        display: flex;
+        align-items: center;
+        margin-left: 64px;
+        margin-right: 64px;
+    }
+
+    .btn-advertisement {
+        font-size: 14px;
+        line-height: 1.28;
+        padding: 15px 44px 15px 43px;
+    }
+}
+
+@media only screen and (min-resolution: 192dpi) and (min-width: 768px) {
+    .section-advertisement {
+        background-image: url(../img/Advertisement-img/2x/bg-table2x-min.png);
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .section-advertisement {
+        max-width: 1280px;
+        height: 298px;
+        border-radius: 30px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        background-color: rgb(12, 12, 12);
+        background-image: url(../img/Advertisement-img/bg-desctop-min.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .container-advertisement {
+        display: flex;
+        align-items: center;
+    }
+
+    .container-taitel-advertisemetn {
+        width: 690px;
+        height: 132px;
+        margin: 83px 140px 83px 80px;
+    }
+
+    .title-advertisement {
+        font-size: 48px;
+        line-height: 0.92;
+    }
+
+    .container-btn-advertisemetn {
+        border: 1px solid rgba(251, 251, 251, 0.15);
+        border-radius: 16px;
+        margin-top: 32px;
+        margin-bottom: 80px;
+        max-width: 160px;
+        max-height: 48px;
+        display: flex;
+        align-items: center;
+        margin-left: 80px;
+    }
+
+    .btn-advertisement {
+        font-size: 14px;
+        line-height: 1.28;
+        padding: 15px 44px 15px 43px;
+    }
+}
+
+@media only screen and (min-resolution: 192dpi) and (min-width: 1280px) {
+    .section-advertisement {
+        background-image: url(../img/Advertisement-img/2x/bg-desctop2x-min.png);
+    }
+}

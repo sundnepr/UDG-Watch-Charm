@@ -1,3 +1,7 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
 @media screen and (max-width: 375px) {
   .container {
     min-width: 320px;
@@ -22,7 +26,7 @@
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
-    padding: 0 60px;
+    padding: 0 65px;
   }
 }
 /* fonts */
@@ -32,5 +36,13 @@
     url('../fonts/Gilroy/Gilroy-Regular.woff2') format('woff2'),
     url('../fonts/Gilroy/Gilroy-Regular.woff') format('woff');
   font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy'), url('../fonts/Gilroy/Gilroy-Bold.woff2') format('woff2'),
+    url('../fonts/Gilroy/Gilroy-Bold.woff') format('woff');
+  font-weight: bold;
   font-style: normal;
 }

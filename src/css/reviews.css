@@ -1,6 +1,6 @@
 .reviews {
-  padding-bottom: 60px;
-  padding-top: 60px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .reviews-title {
@@ -64,8 +64,8 @@
 
 @media screen and (max-width: 767px) {
   .reviews {
-    padding-bottom: 60px;
-    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-top: 30px;
   }
 
   .reviews-list-item:not(:nth-child(1)) {
@@ -75,8 +75,8 @@
 
 @media screen and (min-width: 768px) {
   .reviews {
-    padding-bottom: 80px;
-    padding-top: 80px;
+    padding-bottom: 40px;
+    padding-top: 40px;
   }
 
   .reviews-title {
@@ -110,8 +110,8 @@
 
 @media screen and (min-width: 1280px) {
   .reviews {
-    padding-bottom: 100px;
-    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
   }
 
   .reviews-list {

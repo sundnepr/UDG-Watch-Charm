@@ -88,6 +88,7 @@
   color: #0c0c0c;
   resize: none;
   outline: transparent;
+    margin-botton: 28px;
 }
 .comment-text:focus{
   border-color: #3350e9;

@@ -39,10 +39,6 @@
   margin-bottom: 24px;
 }
 
-.text-contact-us {
-  display: none;
-}
-
 .contactus-input {
   width: 279px;
 }
@@ -88,6 +84,7 @@
   color: #0c0c0c;
   resize: none;
   outline: transparent;
+  margin-bottom: 28px;
 }
 .comment-text:focus{
   border-color: #3350e9;

@@ -1,8 +1,6 @@
 
 .about-us-container {
     display: flex;
-    /* flex-direction: column;
-    gap: 20px; */
 }
 .about-us-wrapper {
     background-color: #f3f3f3;

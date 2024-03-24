@@ -37,11 +37,25 @@
     color: #fbfbfb;
 }
 
+.container-btn-advertisemetn {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.container-btn-advertisemetn:hover,
+.container-btn-advertisemetn:focus {
+    background-color: #fbfbfb;
+}
+
+.btn-advertisement:hover,
+.btn-advertisement:focus {
+    color: #0c0c0c;
+}
+
 @media only screen and (max-width: 767px) {
     .section-advertisement {
         max-width: 335px;
-        margin-top: 60px;
-        margin-bottom: 60px;
+        padding-top: 30px;
+        padding-bottom: 30px;
         border-radius: 30px;
         background: rgb(12, 12, 12);
         background-image: url(../img/Advertisement-img/bg-tel-min.png);
@@ -77,6 +91,7 @@
         align-items: center;
         margin-left: 24px;
         margin-right: 24px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
     .btn-advertisement {
@@ -96,8 +111,8 @@
     .section-advertisement {
         border-radius: 30px;
         max-width: 704px;
-        margin-top: 80px;
-        margin-bottom: 80px;
+        padding-top: 40px;
+        padding-bottom: 40px;
         background-color: rgb(12, 12, 12);
         background-image: url(../img/Advertisement-img/bg-table-min.png);
         background-size: contain;
@@ -150,11 +165,11 @@
 
 @media only screen and (min-width: 1280px) {
     .section-advertisement {
-        max-width: 1280px;
+        max-width: 1150px;
         height: 298px;
         border-radius: 30px;
-        margin-top: 100px;
-        margin-bottom: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
         background-color: rgb(12, 12, 12);
         background-image: url(../img/Advertisement-img/bg-desctop-min.png);
         background-repeat: no-repeat;
@@ -169,7 +184,9 @@
     .container-taitel-advertisemetn {
         width: 690px;
         height: 132px;
-        margin: 83px 140px 83px 80px;
+        margin: 83px 0;
+        margin-right: 140px;
+        margin-left: 80px;
     }
 
     .title-advertisement {
@@ -186,7 +203,7 @@
         max-height: 48px;
         display: flex;
         align-items: center;
-        margin-left: 80px;
+        margin-left: 0;
     }
 
     .btn-advertisement {

@@ -17,6 +17,7 @@
   letter-spacing: -0.02em;
   color: #0c0c0c;
   margin-bottom: 24px;
+
 }
 .box-window {
   display: flex;
@@ -28,6 +29,10 @@
   background: #f3f3f3;
 
   margin-bottom: 20px;
+}
+
+.box-form-cont{
+  margin-bottom: 18px;
 }
 
 .contact-us {
@@ -115,12 +120,32 @@
 @media screen and (min-width: 768px) {
 
   .box-window {
-    padding-left: 128px;
-    padding-right: 128px;
+    max-width: 704px;
+    display: flex;
+    align-items: center;
+
+padding: 0;
+
   }
+  .text-contact-us{
+    margin-top: 50px;
+  }
+
+.namebox{
+  width: 460px;
+
+}
+
+.comment-text{
+  margin-bottom: 32px;
+}
+
+
+
   .contactus-input {
-    width: 704px;
+    width: 100%;
     max-width: none;
+
   }
 
   .titul-contact-us {
@@ -130,6 +155,7 @@
     line-height: 0.91667;
     letter-spacing: -0.02em;
     color: #0c0c0c;
+  
   }
 
   .text-contact-us {
@@ -140,12 +166,16 @@
     line-height: 1.25;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
+
+    margin-bottom: 32px;
   }
 
   .contact-us-button-send {
     padding: 17px 63px;
     width: 160px;
     height: 52px;
+    margin-bottom: 50px;
+
   }
 }
 
@@ -153,6 +183,25 @@
   .contact-us {
     width: 1159px;
   }
+  .contactus-input {
+    width: 540px;
+    max-width: none;
+  }
+  .box-window {
+    max-width: 540px;
+  }
+
+  .photo{
+    width: 530px;
+    height: 556px;
+    margin-top: 67px;
+  }
+
+  .namebox{
+    width: 460px;
+  
+  }
+
   .contact-us-f {
     flex-direction: row;
     gap: 40px;

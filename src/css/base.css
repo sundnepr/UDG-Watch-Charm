@@ -4,7 +4,7 @@
 }
 @media screen and (max-width: 767px) {
   .container {
-    min-width: 320px;
+    max-width: 335px;
     margin: 0 auto;
   }
 }

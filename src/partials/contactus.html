@@ -1,88 +1,92 @@
-<div class="container nodecontact-us">
-  <div class="contact-us-f">
-    <div class="contactus-input">
-      <h2 class="titul-contact-us">Contact Us</h2>
-      <div class="box-window">
-        <p class="text-contact-us">
-          Please use the form below to contact us. Enter your name, email,
-          phone, and message and we'll get back to you shortly.
-        </p>
-        <div class="box-form-cont">
-          <div class="div-input">
-            <input
-              class="input"
-              type="text"
-              placeholder="Name"
-              id="user-name"
-              name="user-name"
-            />
+<section class="section-contactus" id="contactus">
+
+  <div class="container nodecontact-us">
+    <div class="contact-us-f">
+      <div class="contactus-input">
+        <h2 class="titul-contact-us">Contact Us</h2>
+        <div class="box-window">
+          <p class="text-contact-us">
+            Please use the form below to contact us. Enter your name, email,
+            phone, and message and we'll get back to you shortly.
+          </p>
+          <div class="box-form-cont">
+            <div class="div-input">
+              <input
+                class="input"
+                type="text"
+                placeholder="Name"
+                id="user-name"
+                name="user-name"
+              />
+            </div>
           </div>
-        </div>
-        <div class="box-form-cont">
-          <div class="div-input">
-            <input
-              class="input"
-              type="email"
-              placeholder="Email"
-              id="user-email"
-              name="user-email"
-            />
+          <div class="box-form-cont">
+            <div class="div-input">
+              <input
+                class="input"
+                type="email"
+                placeholder="Email"
+                id="user-email"
+                name="user-email"
+              />
+            </div>
           </div>
-        </div>
-        <div class="box-form-cont">
-          <div class="div-input">
-            <input
-              class="input"
-              type="tel"
-              placeholder="+380"
-              id="user-phone"
-              name="user-phone"
-            />
+          <div class="box-form-cont">
+            <div class="div-input">
+              <input
+                class="input"
+                type="tel"
+                placeholder="+380"
+                id="user-phone"
+                name="user-phone"
+              />
+            </div>
           </div>
+          <div class="input-text">
+            <textarea
+              placeholder="Comment"
+              class="comment-text"
+              name="user-comment"
+              id="user-comment"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <button class="contact-us-button-send">Send</button>
         </div>
-        <div class="input-text">
-          <textarea
-            placeholder="Comment"
-            class="comment-text"
-            name="user-comment"
-            id="user-comment"
-            cols="30"
-            rows="10"
-          ></textarea>
-        </div>
-        <button class="contact-us-button-send">Send</button>
+      </div>
+  
+      <div class="photo">
+        <picture>
+          <source
+            srcset="
+              ./img/contact-us/contact-us-des.jpg    1x,
+              ./img/contact-us/contact-us-des@2x.jpg 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              ./img/contact-us/contact-us-tab.jpg    1x,
+              ./img/contact-us/contact-us-tab@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ./img/contact-us/contact-us-mob.jpg    1x,
+              ./img/contact-us/contact-us-mob@2x.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img
+            src="./img/contact-us/contact-us-mob.jpg"
+            alt="Clock"
+            width="335"
+          />
+        </picture>
       </div>
     </div>
-
-    <div class="photo">
-      <picture>
-        <source
-          srcset="
-            ./img/contact-us/contact-us-des.jpg    1x,
-            ./img/contact-us/contact-us-des@2x.jpg 2x
-          "
-          media="(min-width: 1280px)"
-        />
-        <source
-          srcset="
-            ./img/contact-us/contact-us-tab.jpg    1x,
-            ./img/contact-us/contact-us-tab@2x.jpg 2x
-          "
-          media="(min-width: 768px)"
-        />
-        <source
-          srcset="
-            ./img/contact-us/contact-us-mob.jpg    1x,
-            ./img/contact-us/contact-us-mob@2x.jpg 2x
-          "
-          media="(max-width: 767px)"
-        />
-        <img
-          src="./img/contact-us/contact-us-mob.jpg"
-          alt="Clock"
-          width="335"
-        />
-      </picture>
-    </div>
   </div>
-</div>
+
+</section>

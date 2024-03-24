@@ -6,7 +6,7 @@
     }
     .sale-section-list{
     display: flex;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   gap: 5px;
   
 }
@@ -18,14 +18,14 @@
 }
 .sale-section-info {
     background-color: #3350E9;
-    height: 561px;
+    
    width: 335px;
     border-radius: 30px;
 
 
 }
 .sale-section-info-prace {
-padding: 0 28px;
+padding: 48px 28px;
 }
 .sale-section-title-two {
     font-family: "Gilroy", sans-serif;
@@ -35,7 +35,6 @@ line-height: 1.17;
 letter-spacing: -0.02em;
 color: #fbfbfb;
 width: 279px;
-padding-top: 48px;
 margin-bottom: 10px;
 
 
@@ -159,7 +158,8 @@ background: #f3f3f3;
     .sale-section-list{
         display: flex;
         flex-direction: column;
- justify-content: space-between;
+        justify-content: space-between;
+ /* gap: 10px; */
     }
     .sale-section-div {
     padding-bottom: 40px;
@@ -236,7 +236,7 @@ background: #f3f3f3;
     line-height: 1.25;
     letter-spacing: -0.02em;
     color: rgba(251, 251, 251, 0.7);
-    margin-bottom: 28px;
+    margin-bottom: 40px;
     width: 584px;
     }
     
@@ -267,7 +267,7 @@ background: #f3f3f3;
     .sale-section-price {
         display: flex;
         gap: 9px;
-        margin-bottom: 28px;
+        margin-bottom: 30px;
     }
     
     .sale-title-section {
@@ -345,11 +345,13 @@ background: #f3f3f3;
         width: 410px;
         
     }
+   
     
-    .sale-section-list-two {
-        padding-bottom: 61px;
-    }
     .sale-section {
         padding-top: 50px;
     }
+    .sale-section-img {
+        margin-bottom: 0;
+    }
+    
 }

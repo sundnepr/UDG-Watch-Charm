@@ -38,7 +38,10 @@
     background-color: #1f3cd4;
 }
 @media screen and (max-width:767px) {
-
+.about-us-section {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
 .about-us-container {
     flex-direction: column;
     gap: 20px;
@@ -68,7 +71,10 @@
 }
 }
 @media screen and (min-width: 768px) {
-
+.about-us-section {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    }
 .about-us-container {
 gap: 40px;
  }
@@ -102,6 +108,10 @@ margin: 0 auto;
 }
 
 @media screen and (min-width:1280px) {
+.about-us-section {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    }
 
 .about-us-container {
     flex-direction: row;

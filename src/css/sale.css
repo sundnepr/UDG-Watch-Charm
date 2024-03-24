@@ -10,12 +10,18 @@
   gap: 5px;
   
 }
+.sale-section {
+    padding-top: 30px;
+}
+.sale-section-div {
+    padding-bottom: 30px;
+}
 .sale-section-info {
     background-color: #3350E9;
     height: 561px;
    width: 335px;
     border-radius: 30px;
-  margin-bottom: 60px;
+
 
 }
 .sale-section-info-prace {
@@ -156,9 +162,11 @@ background: #f3f3f3;
  justify-content: space-between;
     }
     .sale-section-div {
-        margin-bottom: 80px;
+    padding-bottom: 40px;
     }
-    
+    .sale-section {
+        padding-top: 40px;
+    }
     .sale-section-info {
         background-color: #3350E9;
         height: 518px;
@@ -318,7 +326,7 @@ background: #f3f3f3;
     .sale-section-div {
         display: flex;
         gap: 30px;
-        margin-bottom: 100px;
+        padding-bottom: 50px;
        
     }
     .sale-section-info {
@@ -341,5 +349,7 @@ background: #f3f3f3;
     .sale-section-list-two {
         padding-bottom: 61px;
     }
-   
+    .sale-section {
+        padding-top: 50px;
+    }
 }

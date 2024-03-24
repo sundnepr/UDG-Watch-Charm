@@ -3,11 +3,25 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .contact-us-f {
   display: flex;
   flex-direction: column;
+}
+
+.text-contact-us{
+  font-family: "Gilroy", sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.28571;
+letter-spacing: -0.02em;
+color: rgba(12, 12, 12, 0.7);
+
+margin-bottom: 28px;
+
 }
 .titul-contact-us {
   font-family: 'Gilroy', sans-serif;

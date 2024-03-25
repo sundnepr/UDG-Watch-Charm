@@ -1,10 +1,12 @@
+.section-contactus{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .contact-us {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding-top: 50px;
-  padding-bottom: 50px;
 }
 
 .contact-us-f {
@@ -129,8 +131,14 @@ margin-bottom: 28px;
   .contactus-input {
     max-width: 279px;
   }
+
 }
 @media screen and (min-width: 768px) {
+
+    .section-contactus{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 
   .box-window {
     max-width: 704px;
@@ -197,6 +205,11 @@ padding: 0;
   .contact-us {
     width: 1159px;
   }
+
+    .section-contactus{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
   .contactus-input {
     width: 540px;
     max-width: none;
@@ -208,7 +221,7 @@ padding: 0;
   .photo{
     width: 530px;
     height: 556px;
-    margin-top: 67px;
+    margin-top: 82px;
   }
 
   .namebox{

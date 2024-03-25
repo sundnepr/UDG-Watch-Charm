@@ -64,6 +64,9 @@ background: rgba(251, 251, 251, 0.1);
 border: 0;
 
 }
+.sale-section-button:hover {
+    transform: scale(1.04);
+  }
 
 .sale-section-text-price {
     font-family: "Gilroy", sans-serif;
@@ -151,6 +154,12 @@ border-radius: 30px;
 height: 385px;
 background: #f3f3f3;
 }
+.sale-section-img-clock:hover {
+transform: scale(1.07);
+}
+.clock-img:hover {
+    transform: scale(1.07);
+}
  } 
 /* ==================================des======================== */
 @media screen and (min-width: 768px) {
@@ -176,7 +185,7 @@ background: #f3f3f3;
     
     }
     .sale-section-info-prace {
-    padding: 0 60px;
+    padding: 60px 60px 60px 60px;
     
     }
     .sale-section-title-two {
@@ -187,7 +196,7 @@ background: #f3f3f3;
     letter-spacing: -0.02em;
     color: #fbfbfb;
     width: 436px;
-    padding-top: 60px;
+   
     margin-bottom: 10px;
     
     
@@ -216,6 +225,9 @@ background: #f3f3f3;
     background: rgba(251, 251, 251, 0.1);
     border: 0;
     
+    }
+    .sale-section-button:hover {
+      transform: scale(1.04);
     }
     
     .sale-section-text-price {
@@ -253,7 +265,7 @@ background: #f3f3f3;
         flex-wrap: wrap;
         gap: 8px;
         width: 398px;
-        padding-bottom: 60px ;
+        
 
     
     }
@@ -309,7 +321,12 @@ background: #f3f3f3;
    
     background: #f3f3f3;
     }
-
+    .sale-section-img-clock:hover {
+        transform: scale(1.07);
+        }
+        .clock-img:hover {
+            transform: scale(1.07);
+        }
 }
 @media screen and (min-width: 1280px) {
 .container-sale {
@@ -334,12 +351,12 @@ background: #f3f3f3;
         height: 558px;
         border-radius: 50px;
     }
-    .sale-section-info-prace {
-        padding: 0 68px;
-    }
+    /* .sale-section-info-prace {
+        padding: 60px 60px 60px 60px;
+    } */
     .sale-section-title-two {
         width: 389px;
-        padding-top: 60px;
+        
     }
     .sale-section-text-two {
         width: 410px;

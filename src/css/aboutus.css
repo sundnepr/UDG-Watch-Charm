@@ -30,8 +30,8 @@
 }
 
 .description-wrapper {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
   /* gap: 20px; */
 }
 .about-us-btn {

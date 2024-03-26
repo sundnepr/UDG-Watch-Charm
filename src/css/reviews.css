@@ -89,7 +89,8 @@
     max-width: 704px;
   }
   .reviews-list-item {
-    max-width: 344px;
+    /* max-width: 344px; */
+    max-width: 1150px;
   }
 
   .reviews-name {

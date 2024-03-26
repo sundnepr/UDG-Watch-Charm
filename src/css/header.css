@@ -1,208 +1,187 @@
 button {
-    display: block;
+  display: block;
 }
 
-.header {}
-
 .header-container {
-    display: flex;
-    padding: 27.5px 20px;
-    width: 320px;
-    text-align: center;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 27.5px 20px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .header-title {
-    color: #0C0C0C;
-    font-family: "Gilroy", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: -0.02em;
+  color: #0c0c0c;
+  font-family: 'Gilroy', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.02em;
 }
 
 .header-mob-btn {
-    stroke: #0C0C0C;
-    background-color: transparent;
-    border: none;
-    margin-left: auto;
-    display: flex;
+  stroke: #0c0c0c;
+  background-color: transparent;
+  border: none;
+  margin-left: auto;
+  display: flex;
 }
 
 .head-nav {
-    display: none;
+  display: none;
 }
 
 .soc-icon-container-head {
-    display: none;
+  display: none;
 }
 
+.soc-icon-head:hover,
+.soc-icon-head:focus {
+  fill: #3350e9;
+}
 
 @media screen and (min-width: 768px) {
-    .header-title{
-        font-size: 20px;
-    }
-    
+  .header-title {
+    font-size: 20px;
+  }
 }
-
 
 /* =======mob menu===== */
 .mob-menu {
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    background-color: #0C0C0CEB;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 40px;
-    padding-top: 240px;
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+  padding-top: 240px;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(#0c0c0ceb, #0c0c0ceb),
+    url(../img/header-img/mobile-watch1x.jpg);
 }
 
 .mob-open {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
-
 .mob-menu-btn {
-    position: absolute;
-    top: 0;
-    right: 0;
-    stroke: #FBFBFB;
-    background-color: transparent;
-    border: none;
-    margin-left: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  stroke: #fbfbfb;
+  background-color: transparent;
+  border: none;
+  margin-left: auto;
 }
 
 .mob-list {
-    gap: 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 64px;
-    width: 73px;
-
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 64px;
+  /* width: 73px; */
 }
 
-.mob-item {}
-
 .under {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
 }
 
 .elips-mob {
-    fill: #3350E9;
+  fill: #3350e9;
 }
 
 .mob-link {
-    color: #FBFBFB;
-    text-align: center;
-    font-family: "Gilroy", sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.28;
+  color: #fbfbfb;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.28;
 }
-
-.soc-icon-container-mob {}
 
 .soc-list-mob {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
-
-.soc-item-mob {}
 
 .soc-icon-mob {
-    fill: #FBFBFB;
+  fill: #fbfbfb;
+  border: 1px solid rgba(251, 251, 251, 0.1);
+  border-radius: 10px;
 }
-
 
 @media screen and (min-width: 375px) {
-    .header-container {
-        width: 375px;
-    }
+  .header-container {
+    /* width: 375px; */
+  }
 }
-
 
 /* ======dekstop===== */
 @media screen and (min-width: 1280px) {
-    .header-container {
-        width: 1280px;
-        justify-content: space-between;
-    }
+  .header-container {
+    width: 1280px;
+    justify-content: space-between;
+  }
 
-    .header-title {
-        margin-right: 80px;
-    }
+  .header-title {
+    margin-right: 80px;
+  }
 
-    .header-mob-btn {
-        display: none;
-    }
+  .header-mob-btn {
+    display: none;
+  }
 
+  .head-nav {
+    display: flex;
+  }
 
-    .head-nav {
-        display: flex;
-    }
+  .soc-icon-container-head {
+    display: flex;
+  }
 
-    .soc-icon-container-head {
-        display: flex;
-    }
+  .head-list {
+    display: flex;
+    gap: 40px;
+  }
 
-    .head-list {
-        display: flex;
-        gap: 40px;
-    }
+  .head-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    text-align: center;
+    color: #0c0c0c;
+  }
 
-    .head-item {}
+  .soc-list-head {
+    display: flex;
+    gap: 10px;
+  }
 
-    .head-link {
-        color: #0C0C0C;
-        text-align: center;
-        font-family: "Gilroy", sans-serif;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 1.28;
-    }
-
-    .soc-icon-container-head {}
-
-    .soc-list-head {
-        display: flex;
-        gap: 10px;
-    }
-
-    .soc-item-head {}
-
-    .soc-icon-link {
-        display: flex;
-        padding: 8px;
-        align-items: center;
-        padding: 8px;
-        border-radius: 10px;
-        border: 1px solid rgba(12, 12, 12, 0.10);
-
-
-    }
-
-    .soc-icon-head {}
-
+  .soc-icon-link {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid rgba(12, 12, 12, 0.1);
+  }
 }

@@ -2,7 +2,7 @@
   .container-sale {
     max-width: 335px;
     margin: 0 auto;
-    padding: 0 20px;
+    /* padding: 0 20px; */
   }
   .sale-section-list {
     display: flex;
@@ -125,6 +125,7 @@
     border-radius: 16px;
     width: 80px;
     height: 80px;
+    padding: 13px 14px 13px 14px;
   }
   .sale-section-img-clock {
     /* padding: 50px; */
@@ -132,15 +133,15 @@
   }
   .sale-section-img {
     margin-bottom: 20px;
-    width: 335px;
+    max-width: 335px;
   }
   .clock-img {
-    padding: 0 14px;
+    /* padding: 0 14px;
     padding-top: 13px;
-    padding-bottom: 13px;
+    padding-bottom: 13px; */
   }
   .sale-section-picture-img {
-    width: 335px;
+    max-width: 335px;
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 30px;
     height: 385px;

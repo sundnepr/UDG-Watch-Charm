@@ -2,12 +2,18 @@ button {
   display: block;
 }
 
+.header {
+  border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+  padding: 20px 0;
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
-  padding: 27.5px 20px;
+  /* padding: 27.5px 20px; */
   text-align: center;
   margin: 0 auto;
+  align-items: center;
 }
 
 .header-title {
@@ -41,6 +47,22 @@ button {
   fill: #3350e9;
 }
 
+.dot {
+  position: relative;
+}
+.dot:hover::after,
+.dot:focus::after {
+  content: '';
+  border-radius: 100px;
+  width: 8px;
+  height: 8px;
+  background-color: #3350e9;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+}
+
 @media screen and (min-width: 768px) {
   .header-title {
     font-size: 20px;
@@ -49,8 +71,8 @@ button {
 
 /* =======mob menu===== */
 .mob-menu {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   position: fixed;
   top: 0;
   left: 0;
@@ -79,8 +101,8 @@ button {
 
 .mob-menu-btn {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 20px;
+  right: 20px;
   stroke: #fbfbfb;
   background-color: transparent;
   border: none;
@@ -104,10 +126,6 @@ button {
   gap: 2px;
 }
 
-.elips-mob {
-  fill: #3350e9;
-}
-
 .mob-link {
   color: #fbfbfb;
   text-align: center;
@@ -129,14 +147,15 @@ button {
   border-radius: 10px;
 }
 
-@media screen and (min-width: 375px) {
-  .header-container {
-    /* width: 375px; */
-  }
-}
+
 
 /* ======dekstop===== */
 @media screen and (min-width: 1280px) {
+
+  .header {
+    padding: 26px 32px;
+  }
+
   .header-container {
     width: 1280px;
     justify-content: space-between;
@@ -144,7 +163,6 @@ button {
 
   .dot {
     position: relative;
-    color: #3350e9;
   }
   .dot:hover::after,
   .dot:focus::after {
@@ -154,7 +172,8 @@ button {
     height: 8px;
     background-color: #3350e9;
     position: absolute;
-    left: 15px;
+    left: 50%;
+    transform: translateX(-50%);
     bottom: -10px;
   }
 

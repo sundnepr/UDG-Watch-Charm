@@ -31,6 +31,7 @@
   border-radius: 30px;
   align-items: center;
   justify-content: center;
+  padding: 24px 28px;
 }
 .picture {
   display: flex;
@@ -38,16 +39,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 42px;
+  /* padding-top: 42px; */
   margin-bottom: 28px;
-  padding-left: 63px;
-  padding-right: 64px;
+  /* padding-left: 63px;
+  padding-right: 64px; */
 }
 
 .watch-text {
-  padding-left: 28px;
+  /* padding-left: 28px;
   padding-right: 28px;
-  padding-bottom: 24px;
+  padding-bottom: 24px; */
   border-top: none;
 }
 
@@ -117,20 +118,24 @@
   }
   .watch {
     width: 342px;
+    padding: 24px 32px;
   }
   .picture {
-    padding-top: 34px;
+    /* padding-top: 34px; */
     margin-bottom: 20px;
-    padding-left: 38px;
-    padding-right: 38px;
+    /* padding-left: 38px;
+    padding-right: 38px; */
   }
   .watch-text {
-    padding-left: 32px;
-    padding-right: 32px;
+    /* padding-left: 32px;
+    padding-right: 32px; */
   }
   .title-three-portfolio {
     font-size: 20px;
     line-height: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
   }
   .watch-none {
     flex-wrap: wrap;

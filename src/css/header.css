@@ -142,6 +142,22 @@ button {
     justify-content: space-between;
   }
 
+  .dot {
+    position: relative;
+    color: #3350e9;
+  }
+  .dot:hover::after,
+  .dot:focus::after {
+    content: '';
+    border-radius: 100px;
+    width: 8px;
+    height: 8px;
+    background-color: #3350e9;
+    position: absolute;
+    left: 15px;
+    bottom: -10px;
+  }
+
   .header-title {
     margin-right: 80px;
   }

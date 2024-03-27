@@ -245,7 +245,7 @@ height: 36px;
 }
 .information-container {
     gap: 28px;
-    max-width: 624px;
+    /* max-width: 624px; */
     padding: 0 40px 28px 40px;
     flex-wrap: wrap;
 }

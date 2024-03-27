@@ -59,7 +59,7 @@
         flex-direction: column;
         gap: 28px;
         margin: 0 auto;
-        width: 335px;
+        max-width: 335px;
         padding: 0;
     }
 
@@ -122,10 +122,11 @@
         flex-direction: row;
         gap: 11px;
         margin: 0 auto;
+        margin-bottom: 40px;
     }
 
     .title-hero-container {
-        width: 557px;
+        max-width: 557px;
         height: 260px;
         display: flex;
         flex-direction: column;
@@ -175,10 +176,11 @@
         flex-direction: row;
         gap: 407px;
         margin: 0 auto;
+        margin-bottom: 40px;
     }
 
     .title-hero-container {
-        width: 597px;
+        max-width: 597px;
         height: 269px;
         display: flex;
         flex-direction: column;

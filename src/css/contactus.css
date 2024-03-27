@@ -219,7 +219,7 @@ margin-bottom: 28px;
 
 @media screen and (min-width: 1280px) {
   .contact-us {
-    width: 1159px;
+    max-width: 1159px;
   }
 
     .section-contactus{
